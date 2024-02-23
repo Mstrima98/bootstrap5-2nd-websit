@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="mst rima">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Halant:wght@500&display=swap" rel="stylesheet">
+    <!-- font awosome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- bootstrap5 icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>bootstrap2</title>
+</head>
+<body>
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-warning">Build</span>con</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+             <a class="nav-link" href="home.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="about.html">About</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="service.html">Services</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="Portfolio.html">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="team.html">Team</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contuct.html">Contuct</a>
+           </li>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+
+      <!-- carosol -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="images/home-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-lg-5">
+              <h5 class="mb-lg-3">Your Dream House</h5>
+              <p class="mb-lg-3">Some representative placeholder content for the first slide.</p>
+              <p class="mb-lg-5"><a href="#" class="learn btn btn-warning mt-4">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-lg-5 ">
+                <h5 class="mb-lg-3">Always Dedicated</h5>
+                <p class="mb-lg-3">Some representative placeholder content for the first slide.</p>
+                <p class="mb-lg-5"><a href="#" class="learn btn btn-warning mt-4">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-lg-5 ">
+                <h5 class="mb-lg-3">True Construction</h5>
+                <p class="mb-lg-3">Some representative placeholder content for the first slide.</p>
+                <p class="mb-lg-5"><a href="#" class="learn btn btn-warning mt-4">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- section1 -->
+        <section id="active" class="active-section-padding my-5">
+           <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-12 col-12 ">
+                    <div class="active-img mt-4">
+                       <img src="images/about.jpg" alt="" style="height: 400px; width: 370px;">
+                    </div>
+                  </div> 
+                   <div class="col-lg-8 col-md-12 ps-lg-5 mt-md-5 mt-sm-5 ">
+                       <div class="active-text">
+                          <h2> We Provide Best Quality Service Ever</h2>
+                           <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores voluptates laboriosam, 
+                             placeat voluptatem impedit expedita iure hic ab labore. Lorem ipsum dolor sit,
+                             amet consectetur adipisicing elit. Voluptas veniam nemo
+                             itaque doloremque quis dolor corporis sint quibusdam molestiae saepe.</p>
+                             <a href="#" class="learn btn btn-warning mt-4">Learn More</a>
+                       </div>
+                   </div>   
+              </div>
+           </div>
+        </section>
+        <!-- section2 -->
+          <section id="services" class="services section-padding mb-5">
+              <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                         <div class="siction-header text-center ">
+                            <h2>Our Services</h2>
+                             <p class="mt-3">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Velit, alias.</p>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class=" col-12 col-md-12 col-lg-4">
+                         <div class="Quality card text-white text-center bg-dark pb-2 mt-md-5 mt-sm-3">
+                            <div class="  card-body icon">
+                               <i class="bi bi-subtract"></i>
+                                <h3 class="cardd-title my-3">Best Quality</h3>
+                                 <p class="lead"> Lorem ipsum dolor sit amet consectetur 
+                                  adipisicing elit. Suscipit ut veniam optio ipsa ullam cum ex nam quia qui autem.</p>
+                                  <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col-12 col-md-12 col-lg-4">
+                       <div class="Quality card text-white text-center bg-dark pb-2 mt-md-5 mt-sm-3">
+                         <div class="card-body icon">
+                             <i class="bi bi-slack"></i>
+                             <h3 class="cardd-title my-3">Sustainability</h3>
+                              <p class="lead"> Lorem ipsum dolor sit amet consectetur 
+                               adipisicing elit. Suscipit ut veniam optio ipsa ullam cum ex nam quia qui autem.</p>
+                               <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-12 col-md-12 col-lg-4">
+                       <div class="Quality card text-white text-center bg-dark pb-2 mt-md-5 mt-sm-3">
+                         <div class="card-body icon">
+                             <i class="bi bi-playstation"></i>
+                             <h3 class="cardd-title my-3">Integrity</h3>
+                              <p class="lead"> Lorem ipsum dolor sit amet consectetur 
+                               adipisicing elit. Suscipit ut veniam optio ipsa ullam cum ex nam quia qui autem.</p>
+                               <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+              </div>
+          </section> 
+
+          <!-- project -->
+           <section id="project" class="project section-padding my-5">
+               <div class="container">
+                  <div class="row mb-4">
+                     <div class="col-md-12">
+                       <div class="siction-header text-center ">
+                          <h2>Our Project</h2>
+                           <p class="mt-3">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Velit, alias.</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-12 col-lg-4 col-md-12 mt-sm-3">
+                           <div class=" picture card  bg-white pb-2 text-center">
+                               <div class="card-body text-dark">
+                                  <div class="img-area mb-4">
+                                     <img src="images/project-1.jpg" alt="" class="img-fluid">
+                                  </div>
+                                  <h3 class="cardd-title py-2 mt-3">Building Making</h3>
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing    elit. Animi, sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, veniam.</p>
+                                  <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-lg-4 col-md-12 mt-sm-3">
+                          <div class=" picture card  bg-white pb-2 text-center">
+                            <div class="card-body text-dark">
+                               <div class="img-area mb-4">
+                                  <img src="images/project-2.jpg" alt="" class="img-fluid">
+                               </div>
+                               <h3 class="cardd-title py-2 mt-3">Building Making</h3>
+                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing    elit. Animi, sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, veniam.</p>
+                               <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                             </div>
+                           </div>
+                       </div>
+                       <div class="col-12 col-lg-4 col-md-12 mt-sm-3">
+                          <div class=" picture card  bg-white pb-2 text-center">
+                             <div class="card-body text-dark">
+                               <div class="img-area mb-4">
+                                  <img src="images/project-3.jpg" alt="" class="img-fluid">
+                               </div>
+                               <h3 class="cardd-title py-2 mt-3">Building Making</h3>
+                               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing    elit. Animi, sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, veniam.</p>
+                               <a href="#" class="learn btn btn-warning my-2 ">Read More</a>
+                             </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+           </section>
+          
+          <!-- teeam Section -->
+              <section id="team" class="team section-padding mb-5">
+                  <div class="container">
+                     <div class="row mb-4">
+                       <div class="col-md-12">
+                          <div class="siction-header text-center ">
+                             <h2>Our Team</h2>
+                              <p class="mt-3">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Velit, alias.</p>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-12 col-md-6 col-lg-3 mt-sm-3">
+                              <div class="card text-center">
+                                 <div class="picture2 card-body ">
+                                    <img src="images/team-1.jpg" alt="" class="img-fluid rounded-circle">
+                                    <h3 class="cardd-title py-2 mt-3">Jack Wilson</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing    elit. Animi, sunt.</p>
+
+                                    <p class="social">
+                                      <i class="fa-brands fa-facebook m-2"></i>
+                                      <i class="fa-brands fa-instagram m-2"></i>
+                                      <i class="fa-brands fa-twitter m-2"></i>
+                                      <i class="fa-brands fa-viber m-2"></i>
+                                    </p>
+                                 </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-3 mt-sm-3">
+                            <div class=" picture2 card text-center">
+                               <div class="card-body">
+                                  <img src="images/team-2.jpg" alt="" class="img-fluid rounded-circle">
+                                  <h3 class="cardd-title py-2 mt-3">Jack Wilson</h3>
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt.</p>
+
+                                  <p class="social">
+                                    <i class="fa-brands fa-facebook m-2"></i>
+                                    <i class="fa-brands fa-instagram m-2"></i>
+                                    <i class="fa-brands fa-twitter m-2"></i>
+                                    <i class="fa-brands fa-viber m-2"></i>
+                                  </p>
+                               </div>
+                             </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-3 mt-sm-3">
+                            <div class=" picture2 card text-center">
+                               <div class="card-body">
+                                  <img src="images/team-3.jpg" alt="" class="img-fluid rounded-circle">
+                                  <h3 class="cardd-title py-2 mt-3">Jack Wilson</h3>
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt.</p>
+
+                                  <p class="social">
+                                    <i class="fa-brands fa-facebook m-2"></i>
+                                    <i class="fa-brands fa-instagram m-2"></i>
+                                    <i class="fa-brands fa-twitter m-2"></i>
+                                    <i class="fa-brands fa-viber m-2"></i>
+                                  </p>
+                               </div>
+                             </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-3 mt-sm-3">
+                            <div class=" picture2 card text-center">
+                               <div class="card-body">
+                                  <img src="images/team-4.jpg" alt="" class="img-fluid rounded-circle">
+                                  <h3 class="cardd-title py-2 mt-3">Jack Wilson</h3>
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt.</p>
+
+                                  <p class="social">
+                                    <i class="fa-brands fa-facebook m-2"></i>
+                                    <i class="fa-brands fa-instagram m-2"></i>
+                                    <i class="fa-brands fa-twitter m-2"></i>
+                                    <i class="fa-brands fa-viber m-2"></i>
+                                  </p>
+                               </div>
+                             </div>
+                          </div>
+                      </div>                   
+                   </div>
+              </section>
+
+              <!-- contuct -->
+              <section id="contuct" class="contuct section-padding my-5">
+                  <div class="container">
+                    <div class="row mb-4">
+                      <div class="col-md-12">
+                         <div class="siction-header text-center ">
+                            <h2>Contact Us</h2>
+                             <p class="mt-3">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Velit, alias.</p>
+                          </div>
+                       </div>
+                     </div>
+                     <form class="row g-3 mt-4">
+                      <div class="col-md-6">
+                        <label for="input" class="form-label ">First Name*</label>
+                        <input type="text" class="form-control" id="">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="input" class="form-label">Last Name*</label>
+                        <input type="text" class="form-control" id="">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputemail" class="form-label">Gmail*</label>
+                        <input type="email" class="form-control" id="inputemail" >
+                      </div>
+                      <div class="col-12 mb-3">
+                       
+                        <label for="input" class="form-label">Massage*</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                      </div>
+                    
+                     
+                      
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+                    
+                    </form>
+                    <a href="#" class="learn btn btn-warning my-2 ">SUBMIT</a>
+                  </div>
+              </section>
+
+              <!-- footer -->
+  
+    
+      <div id="snow-wrap" class="project section-padding mt-5">
+        <div class="container">
+          <div class="single-content">
+           <div class=" row ">
+            <div class="col-12 col-lg-3 col-sm-6  text-white ">
+              <div class="single-box">
+                <a class=" build navbar-brand " href="#"><span class="text-warning">Build</span>con</a>
+               <p class="my-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, iure beatae reprehenderit veritatis consequuntur  adipisicing elit. Eos, veritatis. </p>
+               <h3 class="mb-4">We Accet</h3>
+                <div class="card-area">
+                  <i class="fa-brands fa-cc-visa ms-2"></i>
+                  <i class="fa-brands fa-cc-paypal ms-2"></i>
+                  <i class="fa-solid fa-credit-card ms-2"></i>
+                  <i class="fa-brands fa-cc-mastercard ms-2"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 text-white ">
+              <div class="single-box">
+               <h3 class="mb-4">Hosting</h3>
+                
+                 <ul>
+                  <li><a href="#">Web Hosting</a></li>
+                  <li><a href="#">Cloud Hosting</a></li>
+                  <li><a href="#">CMS Hosting</a></li>
+                  <li><a href="#">Wordpress Hosting</a></li>
+                  <li><a href="#">Email Hosting</a></li>
+                  <li><a href="#">Vps Hosting</a></li>
+                </ul>
+             
+              </div>
+             </div>
+
+             <div class="col-12 col-lg-3 col-sm-6  text-white ">
+              <div class="single-box">
+               <h3 class="mb-4">Domain</h3>
+              <ul>
+                 <li><a href="#">Web Domain</a></li>
+                 <li><a href="#">Cloud Domain</a></li>
+                 <li><a href="#">CMS Domain</a></li>
+                 <li><a href="#">Wordpress Domain</a></li>
+                 <li><a href="#">Email Domain</a></li>
+                 <li ><a href="#">Vps Domain</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6  text-white">
+              <div class="single-box">
+               <h3 >Newsletter</h3>
+               <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, iure beatae reprehenderit veritatis consequuntur  adipisicing elit. Dolore, assumenda. </p>
+               <h3>Follow us</h3>
+                <div class=" card-area2 my-3"> 
+                  <i class="fa-brands fa-facebook m-2"></i>
+                  <i class="fa-brands fa-instagram m-2"></i>
+                  <i class="fa-brands fa-twitter m-2"></i>
+                  <i class="fa-brands fa-viber m-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>  
+         </div>
+        </div>
+         <div class="snow">         
+         </div>
+      </div>
+  
+      <!-- javascript cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

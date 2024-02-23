@@ -1,0 +1,276 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background-color: f1fbff;
+}
+.section-pa
+{
+    padding: 100vh;
+
+}
+/* carousel */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+ z-index: 2;  
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(15, 14, 14, 0.7);
+    z-index: 1;
+}
+.carousel-caption p{
+  font-size: 18px;
+}
+.learn{
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.learn:hover{
+   background-color: white;
+   color:orange;
+   border: none;
+}
+
+@media only screen and (max-width:767)
+{
+  .navbar-nav{
+     text-align: center;
+  }
+  .carousel-caption{
+    
+  }
+  .carousel-caption h5{
+    
+     font-size: 17px;
+  }
+  .carousel-caption h5{
+     padding: 10px;
+  }
+}
+
+
+/* Navbar */
+.navbar a{
+  font-size:15px ;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.navbar-light .navbar-brand:focus
+.navbar-light .navbar-brand:hover{
+   
+  color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+/* section1 */
+.active-img{
+    
+    transition: 1s;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5) ;
+
+}
+.active-img:hover{
+    transform: scale(1.1);
+}
+.active-text h2{
+  font-size: 40px;
+}
+.active-text p{
+    color: rgb(111, 109, 109);
+    font-size: 18px;
+}
+
+/* section 2 */
+
+.icon i{
+    font-size: 50px;
+}
+.card-body h3{
+   font-size: 30px;
+}
+.siction-header h2{
+    font-size: 40px;
+}
+
+.siction-header p {
+  font-size: 18px;
+  color: rgb(111, 109, 109) ;
+}
+
+.Quality {
+    transition: 1s; 
+}
+.Quality:hover{
+    transform: scale(1.1);
+}
+
+/* team */
+.card-text{
+    font-size:18px;
+    color:rgb(111, 109, 109) ;
+
+}
+.picture2{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) ;  
+}
+.social i:hover{
+    color: orange;
+}
+
+/* project*/
+.card-body {
+    border-radius:15px ;
+}
+.picture:hover{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) ;
+}
+
+/* contuct us */
+  .name{
+    font-size: 20px;
+    color:rgb(111, 109, 109) ;
+  }
+/* footer */
+
+
+#snow-wrap{
+    /* height: 100vh; */
+    width: 100%;
+    background: url(images/snowf.jpg);
+    background-size:cover ;
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden; 
+}
+.snow, .snow::after, .snow::before{
+    content: "";
+  position: absolute;
+  top: -650px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+  radial-gradient(4px 4px at 100px 50px, #fff, transparent ),
+  radial-gradient(6px 6px at 200px 150px, #fff, transparent ),
+  radial-gradient(3px 3px at 300px 250px, #fff, transparent ),
+  radial-gradient(4px 4px at 400px 350px, #fff, transparent ),
+  radial-gradient(6px 6px at 500px 100px, #fff, transparent ),
+  radial-gradient(3px 3px at 50px 200px, #fff, transparent ),
+  radial-gradient(4px 4px at 150px 300px, #fff, transparent ),
+  radial-gradient(6px 6px at 250px 400px, #fff, transparent ),
+  radial-gradient(3px 3px at 350px 500px, #fff, transparent );
+  background-size:650px 650px ;
+  animation: snowAnim 3s linear;
+  animation-iteration-count: infinite;
+}
+.snow::after{
+    margin-left:-250px ;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-direction: reverse;
+    animation-duration: 6s;
+
+}
+.snow::before{
+    margin-left:-350px ;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-direction: reverse;
+    animation-duration: 9s;
+}
+
+@keyframes snowAnim{
+ from{
+    transform: translateY(0);
+ }
+ to{
+    transform: translateY(650px);
+ }
+}
+
+
+/*  */
+.single-content
+{
+    padding: 130px 0;
+    
+}
+.single-box h3{
+    font-size: 30px;
+    font-weight: 700px;
+   
+}
+.single-box .card-area i{
+    font-size: 20px;
+}
+.single-box ul{
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a{
+    text-decoration: none;
+    font-weight: 100px;
+    line-height: 2;
+    color: #fff;
+
+
+}
+
+.build{
+    font-size: 30px;
+}
+.brands{
+    margin-top: 50px;
+}
+@media(max-width:767px){
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+@media(min-width:768px)and(max-width:991px){
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
